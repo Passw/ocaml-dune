@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762739864172,
+  "lastUpdate": 1762739873056,
   "repoUrl": "https://github.com/Passw/ocaml-dune",
   "entries": {
     "Melange Benchmark": [
@@ -209494,6 +209494,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "synthetic build time (cold, Linux)",
             "value": 45.86550349743333,
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alizter@gmail.com",
+            "name": "Ali Caglayan",
+            "username": "Alizter"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "78236e057299303a1d8042d357abd34819ee1925",
+          "message": "Merge pull request #12686 from Alizter/push-kpxlutwryopo\n\nchore(nix): remove macos compat stubs",
+          "timestamp": "2025-11-07T10:09:45Z",
+          "tree_id": "3da79cb7a3ea48ea349f7b3a596a0a8643c08a59",
+          "url": "https://github.com/Passw/ocaml-dune/commit/78236e057299303a1d8042d357abd34819ee1925"
+        },
+        "date": 1762739872040,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "synthetic build time (warm, Linux)",
+            "value": 1.0139085584666665,
             "unit": "seconds"
           }
         ]
