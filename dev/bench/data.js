@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787658490305,
+  "lastUpdate": 1787658705964,
   "repoUrl": "https://github.com/Passw/ocaml-dune",
   "entries": {
     "Melange Benchmark": [
@@ -209523,6 +209523,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "synthetic build time (warm, Linux)",
             "value": 1.0139085584666665,
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anmonteiro@gmail.com",
+            "name": "Antonio Nuno Monteiro",
+            "username": "anmonteiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ca4ad733d77a6f2057b8cc86c1968cf136a85e94",
+          "message": "fix(merlin): generate mode-aware configurations (#16192)\n\nGenerate and persist both OCaml and Melange Merlin configurations for\nmixed-mode libraries while preserving singular lookup behavior.\n\nBuilds on #15493. Exact-match precedence is handled in #16194.\n\nSigned-off-by: Antonio Nuno Monteiro <anmonteiro@gmail.com>",
+          "timestamp": "2026-08-24T21:55:48-07:00",
+          "tree_id": "ba5cd3ab10751c8d72730a658b993070aa80d790",
+          "url": "https://github.com/Passw/ocaml-dune/commit/ca4ad733d77a6f2057b8cc86c1968cf136a85e94"
+        },
+        "date": 1787658705100,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "synthetic build time (cold, Linux)",
+            "value": 42.164960346579996,
             "unit": "seconds"
           }
         ]
