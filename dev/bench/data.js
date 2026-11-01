@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793530007150,
+  "lastUpdate": 1793530345773,
   "repoUrl": "https://github.com/Passw/ocaml-dune",
   "entries": {
     "Melange Benchmark": [
@@ -209581,6 +209581,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "synthetic build time (warm, Linux)",
             "value": 0.39983276770000004,
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anmonteiro@gmail.com",
+            "name": "Antonio Nuno Monteiro",
+            "username": "anmonteiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "46a15f1161686ca6026bd4b009b3be71ad27d0de",
+          "message": "test(melange): cover compound Merlin dialect suffixes\n\nSigned-off-by: Antonio Nuno Monteiro <anmonteiro@gmail.com>",
+          "timestamp": "2026-10-31T23:46:48-07:00",
+          "tree_id": "d50cea8cb739a126d06247e4e649589acb99c454",
+          "url": "https://github.com/Passw/ocaml-dune/commit/46a15f1161686ca6026bd4b009b3be71ad27d0de"
+        },
+        "date": 1793530344613,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "synthetic build time (cold, Linux)",
+            "value": 66.05312404121332,
             "unit": "seconds"
           }
         ]
